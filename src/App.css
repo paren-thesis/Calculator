@@ -14,7 +14,7 @@
 }
 
 .mother {
-  background: rgba(2, 3, 53, 0.493);
+  background: rgba(232, 232, 255, 0.493);
   padding: 10px 5px;
   width: 25%;
   box-shadow: 2px 2px 0 gray;
@@ -36,12 +36,11 @@
 
 .keypad {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
   gap: 5px;
 }
 
 button {
-  background-color: rgba(245, 222, 179, 0.7);
+  background-color: rgba(179, 230, 245, 0.7);
   color: black;
   border: none;
   border-radius: 5px;
@@ -49,14 +48,9 @@ button {
   font-size: 1.2rem;
   cursor: pointer;
   transition: background 0.2s, transform 0.2s;
+  margin-left: 3px;
 }
 
 button:hover {
-  background-color: rgba(245, 222, 179, 1);
-  transform: scale(1.05);
-}
-
-button:nth-child(3n + 3),
-button:nth-child(4n) {
-  background-color: rgba(135, 206, 235, 0.8); /* Operators with unique color */
+  background-color: rgb(179, 245, 245);
 }
