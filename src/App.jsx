@@ -6,11 +6,12 @@ function App() {
       <div className="container">
         <div className="mother">
           <div className="screen">0</div>
+          <div className="child">
           <div className="keypad">
             <div className="row1">
-              <button className='AC'>AC</button>
-              <button className='DEL'>DEL</button>
-              <button className='A'>+</button>
+              <button>AC</button>
+              <button>DEL</button>
+              <button>/</button>
             </div>
             <div className="row2">
               <button>1</button>
@@ -31,10 +32,11 @@ function App() {
             <button>-</button>
             </div>
             <div className="row5">
+            <button>.</button>
             <button>0</button>
             <button>=</button>
-            <button>/</button>
             </div>
+          </div>
           </div>
         </div>
       </div>

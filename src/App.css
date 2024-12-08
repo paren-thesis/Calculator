@@ -16,9 +16,9 @@
 .mother {
   background: rgba(232, 232, 255, 0.493);
   padding: 10px 5px;
-  width: 25%;
-  box-shadow: 2px 2px 0 gray;
-  border-radius: 8px;
+  min-width: 16%;
+  box-shadow: 2px 2px 7 gray;
+  border-radius: 6px;
 }
 
 .screen {
@@ -32,11 +32,40 @@
   padding: 10px;
   border-radius: 5px;
   margin-bottom: 10px;
+  max-width: 100%;
 }
 
 .keypad {
   display: grid;
   gap: 5px;
+}
+
+.row1 button:nth-child(1) {
+  min-width: 40%;
+}
+
+.row1 button:nth-child(2), .row1 button:nth-child(3){
+  min-width: 28%;
+}
+
+.row2 button:nth-child(1), button:nth-child(2), button:nth-child(3), button:nth-child(4) {
+  min-width: 23.7%;
+}
+
+.row3 button:nth-child(1), button:nth-child(2), button:nth-child(3), button:nth-child(4) {
+  min-width: 23.7%;
+}
+
+.row4 button:nth-child(1), button:nth-child(2), button:nth-child(3), button:nth-child(4) {
+  min-width: 23.7%;
+}
+
+.row5 button:nth-child(1), button:nth-child(2){
+  min-width: 24.6%;
+}
+
+.row5 button:nth-child(3) {
+  min-width: 40%;
 }
 
 button {
@@ -49,8 +78,13 @@ button {
   cursor: pointer;
   transition: background 0.2s, transform 0.2s;
   margin-left: 3px;
+  font-weight: 700;
 }
 
 button:hover {
   background-color: rgb(179, 245, 245);
+}
+
+button:active {
+  background-color: rgb(111, 172, 111);
 }
