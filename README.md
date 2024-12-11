@@ -17,9 +17,9 @@ Currently, two official plugins are available:
    cd Calculator
      
 3. Install dependencies:
-  ```bash
-    npm install
+   ```bash
+   git install
 
-4. Then run it
-  ```bash
-    npm run dev
+4. Then run it   
+   ```bash
+   npm run dev
