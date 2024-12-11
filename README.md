@@ -18,7 +18,7 @@ Currently, two official plugins are available:
      
 3. Install dependencies:
    ```bash
-   git install
+   npm install
 
 4. Then run it   
    ```bash
