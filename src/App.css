@@ -59,7 +59,7 @@
 }
 .row5 {
   display: grid;
-  grid-template-columns: auto auto 120px;
+  grid-template-columns: auto auto auto auto;
 }
 
 button {

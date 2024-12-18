@@ -55,6 +55,7 @@ function App() {
             <button onClick={() => hundleClick('.')}>.</button>
             <button onClick={() => hundleClick('0')}>0</button>
             <button onClick={() => hundleClick('=')}>=</button>
+            <button onClick={() => hundleClick('00')}>00</button>
             </div>
           </div>
           </div>
