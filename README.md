@@ -23,3 +23,5 @@ Currently, two official plugins are available:
 4. Then run it   
    ```bash
    npm run dev
+
+to run the project
